@@ -7,7 +7,7 @@
 
 
 class RoundPeg {
-private:
+protected:
     int radius;
 public:
     RoundPeg(int radius_);

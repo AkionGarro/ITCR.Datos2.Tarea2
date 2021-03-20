@@ -9,6 +9,7 @@ using namespace std;
 
 SquarePegAdapter::SquarePegAdapter(int radius, SquarePeg peg) : RoundPeg(radius) {
         this->peg = peg;
+        this->radius = getRadius();
 }
 
 int SquarePegAdapter::getRadius() {

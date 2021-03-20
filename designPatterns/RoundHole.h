@@ -13,9 +13,9 @@ private:
     int radius;
 
 public:
-    RoundHole(int radius_);
+    RoundHole(int radius);
     int getRadius();
-    bool fits(RoundPeg peg);
+    void fits(RoundPeg peg);
 };
 
 

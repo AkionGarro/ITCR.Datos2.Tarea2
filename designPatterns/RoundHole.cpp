@@ -5,20 +5,19 @@
 #include "RoundHole.h"
 using namespace std;
 
-RoundHole::RoundHole(int radius_) {
- this->radius = radius_;
+RoundHole::RoundHole(int radius) {
+ this->radius = radius;
 }
 
 int RoundHole::getRadius() {
     return this->radius;
 }
 
-bool RoundHole::fits(RoundPeg peg) {
-    if (getRadius() >= peg.getRadius()){
-        cout<<"The object entered satisfactorily "<<endl;
-        return true;
-    }else{
+void RoundHole::fits(RoundPeg peg) {
+    if (getRadius() < peg.getRadius()){
         cout<<"The object radius is bigger than hole radius"<<endl;
-        return false;
+
+    }else{
+        cout<<"The object entered satisfactorily "<<endl;
     }
 }

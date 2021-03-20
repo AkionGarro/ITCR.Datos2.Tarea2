@@ -11,7 +11,7 @@
 
 class SquarePegAdapter:public RoundPeg {
 private:
-    SquarePeg peg = SquarePeg(0);
+    SquarePeg peg= SquarePeg(0);
 public:
     SquarePegAdapter(int radius, SquarePeg peg);
     int getRadius();

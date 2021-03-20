@@ -6,8 +6,16 @@
 #define DESIGNPATTERNS_ROUNDHOLE_H
 
 
-class RoundHole {
+#include "RoundPeg.h"
 
+class RoundHole {
+private:
+    int radius;
+
+public:
+    RoundHole(int radius_);
+    int getRadius();
+    bool fits(RoundPeg peg);
 };
 
 

@@ -3,3 +3,11 @@
 //
 
 #include "SquarePeg.h"
+
+SquarePeg::SquarePeg(int width) {
+this->width =width;
+}
+
+int SquarePeg::getWidth() {
+    return this->width;
+}

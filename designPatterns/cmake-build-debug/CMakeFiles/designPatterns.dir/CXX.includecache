@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/RoundHole.h
+RoundPeg.h
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/RoundPeg.h
+
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/RoundPeg.h
+
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/SquarePeg.h
+
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/SquarePegAdapter.h
+SquarePeg.h
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/SquarePeg.h
+RoundPeg.h
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/RoundPeg.h
+
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/main.cpp
+iostream
+-
+RoundHole.h
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/RoundHole.h
+RoundPeg.h
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/RoundPeg.h
+SquarePeg.h
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/SquarePeg.h
+SquarePegAdapter.h
+/home/garroakion/Desktop/TEC/DatosProjects/Tarea2/ITCR.Datos2.Tarea2/designPatterns/SquarePegAdapter.h
+

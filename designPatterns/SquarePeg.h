@@ -7,6 +7,12 @@
 
 
 class SquarePeg {
+private:
+    int width;
+public:
+    SquarePeg(int width);
+    int getWidth();
+
 
 };
 

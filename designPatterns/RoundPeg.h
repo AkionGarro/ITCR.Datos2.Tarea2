@@ -7,7 +7,11 @@
 
 
 class RoundPeg {
-
+private:
+    int radius;
+public:
+    RoundPeg(int radius_);
+    int getRadius();
 };
 
 

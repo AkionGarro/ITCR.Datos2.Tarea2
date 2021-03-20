@@ -6,8 +6,15 @@
 #define DESIGNPATTERNS_SQUAREPEGADAPTER_H
 
 
-class SquarePegAdapter {
+#include "SquarePeg.h"
+#include "RoundPeg.h"
 
+class SquarePegAdapter:public RoundPeg {
+private:
+    SquarePeg peg = SquarePeg(0);
+public:
+    SquarePegAdapter(int radius, SquarePeg peg);
+    int getRadius();
 };
 
 

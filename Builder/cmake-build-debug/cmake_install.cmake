@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/SantaMix728/CLionProjects/Builder
+# Install script for directory: C:/Users/SantaMix728/Documents/GitHub/ITCR.Datos2.Tarea2/Builder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/SantaMix728/CLionProjects/Builder/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/SantaMix728/Documents/GitHub/ITCR.Datos2.Tarea2/Builder/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

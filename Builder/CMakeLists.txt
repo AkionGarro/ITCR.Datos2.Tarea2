@@ -3,4 +3,4 @@ project(Builder)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Builder main.cpp)
+add_executable(Builder BuilderMain.cpp)

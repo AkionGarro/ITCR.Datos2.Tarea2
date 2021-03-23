@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/* *
+ * CAR class
+ * Class that creates the structure that carries each product, in this case each cart.
+ * */
 class CAR{
 
         string _car;
@@ -22,6 +26,11 @@ class CAR{
         }
 };
 
+/* *
+ * CarBuilder class
+ * Creates the structure to be followed by the builder.
+ * */
+
 class CarBuilder{
     protected:
 
@@ -29,12 +38,22 @@ class CarBuilder{
 
     public:
 
+        /* *
+         * Virtual method  is determined by the definition of a
+         * function with the same header in one of its subclasses
+         * */
+
         virtual void getPartsDone() = 0;
         virtual void buildBody() = 0;
         virtual void buildEngine() = 0;
         //virtual ~CarBuilder(){}
         CAR* getCAR(){ return _car; }
 };
+
+/* *
+ * Director Class
+ * Class in charge of maintaining the order of the builder.
+ * */
 
 class Director{
 
@@ -50,6 +69,11 @@ class Director{
         }
 };
 
+/* *
+ * SedanCar class
+ * Class used to exemplify the function of the builder
+ * */
+
 class SedanCar: public CarBuilder {
 
     public:
@@ -59,6 +83,11 @@ class SedanCar: public CarBuilder {
         void buildBody()    { _car->setBody("Ghibli Body");   }
         //~SedanCar(){delete _car;}
 };
+
+/* *
+ * LuxuryCar class
+ * Another class used to exemplify the function of the builder
+ * */
 
 class LuxuryCar: public CarBuilder {
 
